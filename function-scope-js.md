@@ -156,6 +156,10 @@ $inputCard.on('input', function() {
   });
 ~~~
 
+## Clousure : 
+Capacidad de las funciones de recordar su ambiente exterior : 
+El clousure de las funciones se ve evidenciado en las ejecucion de las funciones `activeButton()` y `desactiveButton()` porque a pesar de no haber sido creadas en el escope en el que estan siendo invocadas se llegan a ejecutar; otra evidencia de clousure sucede  en la linea 44 al ejecutar la funcion `soloNumeros(longitud(numberCard))`(tampoco fueron creadas en el scope en el que estan siendo invocadas)
+
 
 
 
